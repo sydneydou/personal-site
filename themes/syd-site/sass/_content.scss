@@ -1,0 +1,40 @@
+.site-title {
+  padding-left: 4em;
+  padding-top: 4em;
+  span {
+    color: #ddd5d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 5em;
+  }
+}
+.site-branding {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #586f6b;
+}
+
+.site-description {
+  padding-left: 4em;
+  color: #cfc0bd;
+  text-transform: uppercase;
+}
+
+.main-navigation {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    li a {
+      color: #586f6b;
+      text-transform: uppercase;
+      padding-top: 2em;
+      padding-bottom: 1em;
+      font-size: 1.6em;
+    }
+  }
+}
